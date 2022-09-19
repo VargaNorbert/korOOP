@@ -21,5 +21,17 @@ public class Main {
             System.out.println(korok[i]);
         }
 
+        double legnagyobb=korok[0].terulet();
+        int index=0;
+
+        for (int i = 1; i < korok.length; i++) {
+            if (korok[i].terulet()>legnagyobb){
+                legnagyobb=korok[i].terulet();
+                index=i;
+            }
+        }
+
+        System.out.println("A legnagyobb területtel rendelkező kör adatai: "+korok[index]);
+
     }
 }
