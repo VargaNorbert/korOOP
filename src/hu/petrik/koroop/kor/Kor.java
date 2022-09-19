@@ -46,7 +46,7 @@ public class Kor {
     }
 
     public void nagyit(int r){
-        this.r=r;
+        this.r=this.r*r;
     }
 
 }
