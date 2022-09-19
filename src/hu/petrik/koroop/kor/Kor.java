@@ -23,7 +23,7 @@ public class Kor {
 
         this.x = rand(n);
         this.y = rand(n);
-        this.r = (int) Math.random() * n;
+        this.r = (int) (Math.random() * n+1);
     }
 
     private int rand(int n) {
